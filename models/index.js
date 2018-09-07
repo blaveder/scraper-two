@@ -1,4 +1,8 @@
+var mongoose = require("mongoose");
+
+var Schema = mongoose.Schema;
+
 module.exports = {
-    Headline: require("./Headline"),
+    Headline: require("./models/Headline"),
     Note: require("./Note")
 }
