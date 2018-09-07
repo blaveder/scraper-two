@@ -3,6 +3,6 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 module.exports = {
-    Headline: require("./models/Headline"),
+    Headline: require("./Headline"),
     Note: require("./Note")
 }
